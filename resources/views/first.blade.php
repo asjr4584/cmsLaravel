@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Smart
+                    First Laravel Page
                 </div>
 
                 <div class="links">
