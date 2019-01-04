@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    First Laravel Page
+                    First Laravel Page Controller
                 </div>
 
                 <div class="links">

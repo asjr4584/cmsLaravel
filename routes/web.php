@@ -11,7 +11,11 @@
 |
 */
 
+//C:\wamp64\www\cms\routes
+
 //Route::view('/', 'first');
+
+Route::get("/tutorial/{id}", 'Tutorial@show');
 
 Route::redirect('welcome',  "come",301);
 
