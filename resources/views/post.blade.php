@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to Laravel
+                    Post Page {{$id}}<br/>
+                    Post Page {{$id}} {{$name}} {{$password}}
                 </div>
 
                 <div class="links">

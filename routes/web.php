@@ -40,19 +40,20 @@ Controller created successfully.
 
 Route::resource('posts', 'PostsController');
 
+Route::redirect('welcome',  "come",301);
+
 Route::get('/post/{id}', 'PostsController@index');
 
-/*Route::get('/post/{id}', function ($id) {
+Route::get('/post/{id}', function ($id) {
     //return view('welcome');
 
     return "This post is page " . $id;
     
-});*/
-
+});
 
 Route::get("/tutorial/{id}", 'Tutorial@show');
 
-Route::redirect('welcome',  "come",301);
+Route::get('/contact', 'PostsController@contact');
 
 Route::get('/', function () {
     return view('first');
@@ -73,3 +74,4 @@ Route::get('/about', function () {
 	
 });
 
+Route::get('page/{id}/{name}/{password}', 'PostsController@show_post');
